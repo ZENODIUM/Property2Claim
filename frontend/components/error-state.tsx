@@ -1,0 +1,1 @@
+export function ErrorState({ message }: { message: string }) { return <div className="rounded-xl border border-rose-400/20 bg-rose-400/[.07] p-5 text-sm text-rose-200"><div className="font-semibold">Couldn’t load this workbench</div><div className="mt-1 text-rose-300/80">{message}. Confirm the FastAPI service is running on port 8000.</div></div>; }

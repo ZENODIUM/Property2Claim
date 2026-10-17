@@ -1,0 +1,2 @@
+site_code,name,address,city,region,latitude,longitude,occupancy,construction,year_built,area_sqft,floors,roof,protection,operations,building_value,equipment_value,contents_value,business_income
+DEMO-IMPORT-01,Imported Demo Facility,100 Demo Loop,Austin,TX,30.2672,-97.7431,light manufacturing,masonry non-combustible,2008,42000,1,metal,current sprinkler certificate,synthetic assembly,6500000,3100000,900000,1200000

@@ -1,0 +1,16 @@
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+pydantic==2.14.1
+pydantic-settings==2.9.1
+SQLAlchemy==2.0.41
+python-multipart==0.0.20
+httpx==0.28.1
+pandas==2.2.3
+openpyxl==3.1.5
+PyMuPDF==1.25.5
+shapely==2.1.0
+langgraph==0.4.5
+pytest==8.3.5
+groq==1.7.0
+google-genai==2.31.0
+mcp==1.30.0

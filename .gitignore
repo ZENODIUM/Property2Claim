@@ -1,0 +1,39 @@
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite3
+__pycache__/
+*.py[cod]
+*.tsbuildinfo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+backend/storage/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/public/cesium/
+*.log
+
+# Local source-media drop folders duplicated by curated application fixtures.
+/machine_images/
+/sample_docs/
+
+# Internal build instructions, planning notes, and local client configuration.
+/AGENTS.md
+**/AGENTS.md
+/*PROJECT_SPEC.md
+/CODEX_IMPLEMENTATION_PROMPT.md
+/next_steps.md
+/plan.md
+/property2claim.mcp.json
+/scripts/capture_github_showcase.mjs
+
+# Keep only curated showcase screenshots from local documentation artifacts.
+/docs/*
+!/docs/screenshots/
+/docs/screenshots/*
+!/docs/screenshots/github/
+!/docs/screenshots/github/*.jpg
